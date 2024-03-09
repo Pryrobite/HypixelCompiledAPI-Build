@@ -1,1 +1,0 @@
-All Right's, Reserved. To the Owner.
