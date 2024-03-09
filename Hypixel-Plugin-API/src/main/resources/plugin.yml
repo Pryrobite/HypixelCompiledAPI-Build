@@ -1,4 +1,4 @@
 name: api
 version: '${version}'
-main: net.hypixel.api.Hypixel.Plugin
+main: net.hypixel.api.Plugin
 api-version: '1.20'
