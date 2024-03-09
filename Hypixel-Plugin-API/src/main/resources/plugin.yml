@@ -1,0 +1,4 @@
+name: api
+version: '${version}'
+main: net.hypixel.api.Hypixel
+api-version: '1.20'
