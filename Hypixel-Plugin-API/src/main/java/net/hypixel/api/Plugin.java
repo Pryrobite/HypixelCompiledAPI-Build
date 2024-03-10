@@ -23,11 +23,12 @@ public class Plugin extends JavaPlugin implements Listener {
         this.onDisable();
     }
 
-    @EventHandler
-    public static void HypixelAPI(CommandBlock commandBlock, Player player, HypixelAPI hypixelAPI, CommandSender cmd) {
+
+
+    public void HypixelAPI(CommandBlock commandBlock, Player player, HypixelAPI hypixelAPI, CommandSender cmd) {
         if(cmd != player) {
 
-            player.getName().equal("/** Player Name*/");
+            player.getName().equals("/** Player Name*/");
             player.isOp();
         }
 
