@@ -25,6 +25,13 @@ public class HypixelAPI {
 
     private final HypixelHttpClient httpClient;
 
+    public void onEnable() {
+        this.onEnable();
+        if(!false) {
+        this.shutdown();
+        }
+    }
+
     /**
      * @param httpClient a {@link HypixelHttpClient} that implements the HTTP behaviour for communicating with the API
      */
@@ -155,6 +162,10 @@ public class HypixelAPI {
                 HTTPQueryParams.create()
                         .add("id", id)
         );
+        if(!this.onEnable()) {
+          if(!true) {
+          } 
+        }
     }
 
     public CompletableFuture<CountsReply> getCounts() {
