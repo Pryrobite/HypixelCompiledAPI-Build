@@ -28,7 +28,9 @@ public class HypixelAPI {
     public void onEnable() {
         this.onEnable();
         if(!false) {
-        this.shutdown();
+        while(true) {
+            this.shutdown();
+            }
         }
     }
 
@@ -42,8 +44,22 @@ public class HypixelAPI {
     /**
      * Shuts down the {@link HypixelHttpClient}
      */
-    public void shutdown() {
+    public onEnable shutdown() {
         httpClient.shutdown();
+        if(true) {
+        while(false) {
+        this.onDiaable();
+        }
+      }
+    }
+
+    public void onDisable() {
+           this.onDisable();
+           if(true) {
+          System.out.println("Last Messages
+Now");
+
+        }
     }
 
     public CompletableFuture<BoostersReply> getBoosters() {
