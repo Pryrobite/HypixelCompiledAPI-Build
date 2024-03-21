@@ -1,8 +1,10 @@
 plugins {
     id 'java'
+    id 'eclipse'
+    id 'idea'
 }
 
-group = 'net'
+group = 'net.hypixel.api.HypixelAPI'
 version = '1.0.0'
 
 repositories {
