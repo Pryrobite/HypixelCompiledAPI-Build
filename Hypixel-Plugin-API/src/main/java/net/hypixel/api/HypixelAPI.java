@@ -19,8 +19,11 @@ import net.hypixel.api.util.Utilities;
 
 import java.util.UUID;
 import java.util.concurrent.CompletableFuture;
+import org.bukkit.java.plugin.JavaPlugin;
+import net.hypixel.api.Plugin;
 
-public class HypixelAPI {
+public class HypixelAPI extends JavaPlugin {
+
     static final String BASE_URL = "https://api.hypixel.net/v2/";
 
     private final HypixelHttpClient httpClient;
